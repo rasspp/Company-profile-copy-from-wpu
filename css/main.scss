@@ -511,11 +511,11 @@ footer {
       text-align: center;
 
       a {
-         color: white;
+         color: white !important;
          text-decoration: none;
 
          &:hover {
-            color: rgba(white, 0.8);
+            color: rgba(white, 0.8) !important;
             text-decoration: underline;
          }
       }
@@ -526,7 +526,7 @@ footer {
    }
 
    .p2 {
-      color: rgb(103, 220, 255);
+      color: rgb(103, 220, 255) !important;
    }
 }
 /* -------------------------Akhir_Footer------------------------- */

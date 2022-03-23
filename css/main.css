@@ -476,12 +476,12 @@ footer p {
 }
 
 footer p a {
-  color: white;
+  color: white !important;
   text-decoration: none;
 }
 
 footer p a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8) !important;
   text-decoration: underline;
 }
 
@@ -492,7 +492,7 @@ footer p a:hover {
 }
 
 footer .p2 {
-  color: #67dcff;
+  color: #67dcff !important;
 }
 
 /* -------------------------Akhir_Footer------------------------- */
