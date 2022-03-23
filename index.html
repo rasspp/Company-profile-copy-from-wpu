@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <!-- Bootstrap CSS -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+         crossorigin="anonymous"
+      />
+
+      <!-- Bootstrap Icons -->
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+      />
+
+      <!-- My CSS -->
+      <link rel="stylesheet" href="css/main.css" />
+
+      <title>PRProjects</title>
+   </head>
+   <body id="home">
+      <!--todo-------------------------Navbar--------------------------->
+      <nav
+         class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top custom-nav"
+      >
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#home">PRProjects</a>
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarNav"
+               aria-controls="navbarNav"
+               aria-expanded="false"
+               aria-label="Toggle navigation"
+            >
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+               class="collapse navbar-collapse justify-content-end"
+               id="navbarNav"
+            >
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="#about-us"
+                        >About Us</a
+                     >
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#clients">Clients</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#contact-us">Contact Us</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!--todo-------------------------Akhir_Navbar--------------------------->
+
+      <!--todo-------------------------Slider--------------------------->
+
+      <div
+         id="carouselExampleCaptions"
+         class="carousel slide custom-carousel"
+         data-bs-ride="carousel"
+      >
+         <div class="carousel-indicators custom-indicator-slider">
+            <button
+               type="button"
+               data-bs-target="#carouselExampleCaptions"
+               data-bs-slide-to="0"
+               class="active"
+               aria-current="true"
+               aria-label="Slide 1"
+            ></button>
+            <button
+               type="button"
+               data-bs-target="#carouselExampleCaptions"
+               data-bs-slide-to="1"
+               aria-label="Slide 2"
+            ></button>
+            <button
+               type="button"
+               data-bs-target="#carouselExampleCaptions"
+               data-bs-slide-to="2"
+               aria-label="Slide 3"
+            ></button>
+            <button
+               type="button"
+               data-bs-target="#carouselExampleCaptions"
+               data-bs-slide-to="3"
+               aria-label="Slide 4"
+            ></button>
+         </div>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="container-img">
+                  <img
+                     src="img/slider/1.jpg"
+                     class="d-block w-100 img-1"
+                     alt="gambar 1"
+                  />
+               </div>
+               <div class="carousel-caption d-none d-md-block">
+                  <div class="text">
+                     <h5>First slide label</h5>
+                     <p>
+                        Some representative placeholder content for the first
+                        slide.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container-img">
+                  <img
+                     src="img/slider/2.jpg"
+                     class="d-block w-100 img-2"
+                     alt="gambar 2"
+                  />
+               </div>
+               <div class="carousel-caption d-none d-md-block">
+                  <div class="text">
+                     <h5>Second slide label</h5>
+                     <p>
+                        Some representative placeholder content for the second
+                        slide.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container-img">
+                  <img
+                     src="img/slider/3.jpg"
+                     class="d-block w-100 img-3"
+                     alt="gambar 3"
+                  />
+               </div>
+               <div class="carousel-caption d-none d-md-block">
+                  <div class="text">
+                     <h5>Third slide label</h5>
+                     <p>
+                        Some representative placeholder content for the third
+                        slide.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container-img">
+                  <img
+                     src="img/slider/4.jpg"
+                     class="d-block w-100 img-4"
+                     alt="gambar 4"
+                  />
+               </div>
+               <div class="carousel-caption d-none d-md-block">
+                  <div class="text">
+                     <h5>Fourt slide label</h5>
+                     <p>
+                        Some representative placeholder content for the third
+                        slide.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <button
+            class="carousel-control-prev prev-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+         >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+         </button>
+         <button
+            class="carousel-control-next prev-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+         >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+         </button>
+      </div>
+      <!--todo-------------------------Akhir_Slider--------------------------->
+
+      <!--todo-------------------------Gelombang--------------------------->
+      <svg
+         xmlns="http://www.w3.org/2000/svg"
+         viewBox="0 0 1440 320"
+         class="custom-svg-slider"
+      >
+         <path
+            fill="#bec5f0"
+            fill-opacity="1"
+            d="M0,192L80,181.3C160,171,320,149,480,149.3C640,149,800,171,960,181.3C1120,192,1280,192,1360,192L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+         ></path>
+      </svg>
+      <!--todo-------------------------Akhir_Gelombang--------------------------->
+
+      <!--todo-------------------------About_Us--------------------------->
+      <div id="about-us" class="container custom-about scroll-navbar">
+         <div class="row justify-content-center">
+            <h3 class="text-center mb-5">About Us</h3>
+            <div class="col-11 col-lg-5">
+               <h5>We Are Professionals</h5>
+               <p class="text-md-center text-lg-start lh-sm mt-3">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Quibusdam explicabo vero perspiciatis officiis, expedita
+                  facilis nisi unde eveniet reiciendis! Dicta voluptatum nobis
+                  quia ipsa sit laboriosam, volupta.
+               </p>
+            </div>
+            <div class="col-11 col-lg-5 col-dua">
+               <p class="text-uppercase">Web Development</p>
+               <div class="progress" style="height: 5px">
+                  <div
+                     class="progress-bar"
+                     role="progressbar"
+                     style="width: 90%"
+                     aria-valuenow="25"
+                     aria-valuemin="0"
+                     aria-valuemax="100"
+                  ></div>
+               </div>
+               <p class="text-uppercase">Mobile App Development</p>
+               <div class="progress" style="height: 5px">
+                  <div
+                     class="progress-bar"
+                     role="progressbar"
+                     style="width: 75%"
+                     aria-valuenow="25"
+                     aria-valuemin="0"
+                     aria-valuemax="100"
+                  ></div>
+               </div>
+               <p class="text-uppercase">Game Development</p>
+               <div class="progress" style="height: 5px">
+                  <div
+                     class="progress-bar"
+                     role="progressbar"
+                     style="width: 50%"
+                     aria-valuenow="25"
+                     aria-valuemin="0"
+                     aria-valuemax="100"
+                  ></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--todo-------------------------Akhir_About_Us--------------------------->
+
+      <!--todo-------------------------Parallax_Our_Client--------------------------->
+      <div id="clients" class="row custom-parallax scroll-navbar">
+         <div class="bg-parallax">
+            <img src="img/slider/4.jpg" alt="laptop" />
+         </div>
+
+         <div class="col">
+            <h3>Our Clients</h3>
+            <div class="row">
+               <div class="col-12 col-lg-3">
+                  <img src="img/clients/gojek.png" alt="gojek" class="img-1" />
+               </div>
+               <div class="col-12 col-lg-3">
+                  <img
+                     src="img/clients/tokopedia.png"
+                     alt="gojek"
+                     class="img-2"
+                  />
+               </div>
+               <div class="col-12 col-lg-3">
+                  <img
+                     src="img/clients/traveloka.png"
+                     alt="gojek"
+                     class="img-3"
+                  />
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--todo-------------------------Akhir_Parallax_Our_Client-------------------------->
+
+      <!--todo-------------------------Our_Services--------------------------->
+      <div
+         id="services"
+         class="row text-center justify-content-center custom-our-services scroll-navbar"
+      >
+         <h3 class="text-center">Our Services</h3>
+         <div class="col-12 col-md-5 col-lg-3">
+            <div class="card m-auto card-1" style="width: 18rem">
+               <div class="card-body">
+                  <i class="bi bi-display"></i>
+                  <h5 class="card-title">Web Development</h5>
+                  <p class="card-text">
+                     Some quick example text to build on the card title and make
+                     up the bulk of the card's content.
+                  </p>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-12 col-md-5 col-lg-3">
+            <div class="card m-auto card-2" style="width: 18rem">
+               <div class="card-body">
+                  <i class="bi bi-phone"></i>
+                  <h5 class="card-title">Mobile Development</h5>
+                  <p class="card-text">
+                     Some quick example text to build on the card title and make
+                     up the bulk of the card's content.
+                  </p>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-12 col-md-5 col-lg-3">
+            <div class="card m-auto card-3" style="width: 18rem">
+               <div class="card-body">
+                  <i class="bi bi-controller"></i>
+                  <h5 class="card-title">Game Development</h5>
+                  <p class="card-text">
+                     Some quick example text to build on the card title and make
+                     up the bulk of the card's content.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--todo-------------------------Akhir_Our_Services--------------------------->
+
+      <!--todo-------------------------Portfolio--------------------------->
+      <div id="portfolio" class="container custom-portfolio scroll-navbar">
+         <div class="row mt-5 row-1">
+            <h3 class="text-center">Portfolio</h3>
+         </div>
+
+         <!-- ? Portfolio_ke-1 -->
+         <div class="row row-2">
+            <div class="col-12 col-md-6 col-lg-3">
+               <!-- Button trigger modal -->
+               <div
+                  class="view-portfolio"
+                  style="width: 15rem"
+                  data-bs-toggle="modal"
+                  data-bs-target="#portfolio-1"
+               >
+                  <img
+                     src="img/portfolio/1.png"
+                     alt="gambar-1"
+                     class="img-fluid rounded img-thumbnail justify-content-center"
+                  />
+               </div>
+
+               <!-- Modal -->
+               <div
+                  class="modal fade custom-modal"
+                  id="portfolio-1"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+               >
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <div class="modal-body">
+                           <img
+                              src="img/portfolio/1.png"
+                              alt="gambar-1"
+                              class="img-fluid rounded img-thumbnail"
+                           />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- ? Portfolio_ke-2 -->
+            <div class="col-12 col-md-6 col-lg-3">
+               <!-- Button trigger modal -->
+               <div
+                  class="view-portfolio"
+                  style="width: 15rem"
+                  data-bs-toggle="modal"
+                  data-bs-target="#portfolio-2"
+               >
+                  <img
+                     src="img/portfolio/2.png"
+                     alt="gambar-1"
+                     class="img-fluid rounded img-thumbnail"
+                  />
+               </div>
+
+               <!-- Modal -->
+               <div
+                  class="modal fade custom-modal"
+                  id="portfolio-2"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+               >
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <div class="modal-body">
+                           <img
+                              src="img/portfolio/2.png"
+                              alt="gambar-1"
+                              class="img-fluid rounded img-thumbnail"
+                           />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- ? Portfolio_ke-3 -->
+            <div class="col-12 col-md-6 col-lg-3">
+               <!-- Button trigger modal -->
+               <div
+                  class="view-portfolio"
+                  style="width: 15rem"
+                  data-bs-toggle="modal"
+                  data-bs-target="#portfolio-3"
+               >
+                  <img
+                     src="img/portfolio/3.png"
+                     alt="gambar-1"
+                     class="img-fluid rounded img-thumbnail"
+                  />
+               </div>
+
+               <!-- Modal -->
+               <div
+                  class="modal fade custom-modal"
+                  id="portfolio-3"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+               >
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <div class="modal-body">
+                           <img
+                              src="img/portfolio/3.png"
+                              alt="gambar-1"
+                              class="img-fluid rounded img-thumbnail"
+                           />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- ? Portfolio_ke-4 -->
+            <div class="col-12 col-md-6 col-lg-3">
+               <!-- Button trigger modal -->
+               <div
+                  class="view-portfolio"
+                  style="width: 15rem"
+                  data-bs-toggle="modal"
+                  data-bs-target="#portfolio-4"
+               >
+                  <img
+                     src="img/portfolio/4.png"
+                     alt="gambar-1"
+                     class="img-fluid rounded img-thumbnail"
+                  />
+               </div>
+
+               <!-- Modal -->
+               <div
+                  class="modal fade custom-modal"
+                  id="portfolio-4"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+               >
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <div class="modal-body">
+                           <img
+                              src="img/portfolio/4.png"
+                              alt="gambar-1"
+                              class="img-fluid rounded img-thumbnail"
+                           />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- ? Row_ke-2 -->
+         <div class="row row-3">
+            <!-- ? Portfolio_ke-5 -->
+            <div class="col-12 col-md-6 col-lg-3">
+               <!-- Button trigger modal -->
+               <div
+                  class="view-portfolio"
+                  style="width: 15rem"
+                  data-bs-toggle="modal"
+                  data-bs-target="#portfolio-5"
+               >
+                  <img
+                     src="img/portfolio/5.png"
+                     alt="gambar-1"
+                     class="img-fluid rounded img-thumbnail"
+                  />
+               </div>
+
+               <!-- Modal -->
+               <div
+                  class="modal fade custom-modal"
+                  id="portfolio-5"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+               >
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <div class="modal-body">
+                           <img
+                              src="img/portfolio/5.png"
+                              alt="gambar-5"
+                              class="img-fluid rounded img-thumbnail"
+                           />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- ? Portfolio_ke-6 -->
+            <div class="col-12 col-md-6 col-lg-3">
+               <!-- Button trigger modal -->
+               <div
+                  class="view-portfolio"
+                  style="width: 15rem"
+                  data-bs-toggle="modal"
+                  data-bs-target="#portfolio-6"
+               >
+                  <img
+                     src="img/portfolio/6.png"
+                     alt="gambar-1"
+                     class="img-fluid rounded img-thumbnail"
+                  />
+               </div>
+
+               <!-- Modal -->
+               <div
+                  class="modal fade custom-modal"
+                  id="portfolio-6"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+               >
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <div class="modal-body">
+                           <img
+                              src="img/portfolio/6.png"
+                              alt="gambar-1"
+                              class="img-fluid rounded img-thumbnail"
+                           />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- ? Portfolio_ke-7 -->
+            <div class="col-12 col-md-6 col-lg-3">
+               <!-- Button trigger modal -->
+               <div
+                  class="view-portfolio"
+                  style="width: 15rem"
+                  data-bs-toggle="modal"
+                  data-bs-target="#portfolio-7"
+               >
+                  <img
+                     src="img/portfolio/1.png"
+                     alt="gambar-1"
+                     class="img-fluid rounded img-thumbnail"
+                  />
+               </div>
+
+               <!-- Modal -->
+               <div
+                  class="modal fade custom-modal"
+                  id="portfolio-7"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+               >
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <div class="modal-body">
+                           <img
+                              src="img/portfolio/1.png"
+                              alt="gambar-1"
+                              class="img-fluid rounded img-thumbnail"
+                           />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- ? Portfolio_ke-8-->
+            <div class="col-12 col-md-6 col-lg-3">
+               <!-- Button trigger modal -->
+               <div
+                  class="view-portfolio"
+                  style="width: 15rem"
+                  data-bs-toggle="modal"
+                  data-bs-target="#portfolio-8"
+               >
+                  <img
+                     src="img/portfolio/2.png"
+                     alt="gambar-1"
+                     class="img-fluid rounded img-thumbnail"
+                  />
+               </div>
+
+               <!-- Modal -->
+               <div
+                  class="modal fade custom-modal"
+                  id="portfolio-8"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+               >
+                  <div class="modal-dialog">
+                     <div class="modal-content">
+                        <div class="modal-body">
+                           <img
+                              src="img/portfolio/2.png"
+                              alt="gambar-1"
+                              class="img-fluid rounded img-thumbnail"
+                           />
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--todo-------------------------Akhir_Portfolio--------------------------->
+
+      <!--todo-------------------------Contact_Us--------------------------->
+      <div id="contact-us" class="container custom-about-us mt-5 scroll-navbar">
+         <div class="row row-1 mb-3">
+            <h3>Contact Us</h3>
+         </div>
+
+         <div class="row row-2 justify-content-center">
+            <div class="col-12 col-md-4 section-left">
+               <div class="row">
+                  <!-- adress section -->
+                  <!-- card left up -->
+                  <div class="col-12 col-md-12">
+                     <div class="card m-auto card-left-up mb-2">
+                        <div class="card-body">
+                           <i class="bi bi-envelope"></i>
+                           <h5 class="card-title">Contact</h5>
+                           <p class="card-text">
+                              Some quick example text to build on the card title
+                              and make up the bulk of the card's content.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- card left down -->
+                  <div class="d-flex col-12 col-md-12 justify-content-center">
+                     <ul class="list-group card-left-down">
+                        <li class="list-group-item">
+                           <h4>Our Office</h4>
+                        </li>
+                        <li class="list-group-item fw-bold">PRProjects</li>
+                        <li class="list-group-item">
+                           Jl. Talang Kelapa No. 005, Palembang
+                        </li>
+                        <li class="list-group-item">
+                           South Sumatra, Indonesia
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+            <!-- contact section -->
+            <div class="col-12 col-md-6 custom-contact">
+               <h5>Please fill out this form</h5>
+               <form>
+                  <div class="form-floating mb-3">
+                     <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        name="name"
+                        placeholder="name"
+                        required
+                     />
+                     <label for="name">Nama</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                     <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="name@example.com"
+                        required
+                     />
+                     <label for="email">Email</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                     <input
+                        type="text"
+                        class="form-control"
+                        id="phone"
+                        placeholder="phoneNumber"
+                        required
+                     />
+                     <label for="phone">Phone Number</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                     <input
+                        type="text"
+                        class="form-control"
+                        id="message"
+                        placeholder="message"
+                        required
+                     />
+                     <label for="message">Message</label>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary">Kirim</button>
+               </form>
+            </div>
+         </div>
+      </div>
+      <!--todo-------------------------Akhir_Contact_Us--------------------------->
+
+      <!--todo-------------------------Footer--------------------------->
+      <footer class="bg-primary mt-5">
+         <p>PRProjets. Copyright 2022.</p>
+      </footer>
+      <!--todo-------------------------Akhir_Footer--------------------------->
+
+      <!-- ?---------------------------My_Script--------------------------->
+      <script src="js/parallax_effect.js"></script>
+      <!-- ?---------------------------Akhir_My_Script--------------------------->
+
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"
+      ></script>
+   </body>
+</html>

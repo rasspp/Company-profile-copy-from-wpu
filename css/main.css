@@ -1,0 +1,481 @@
+body {
+  background-color: #bec5f0;
+  overflow-x: hidden;
+}
+
+.scroll-navbar {
+  padding-top: 3.3rem;
+}
+
+@media screen and (min-width: 992px) {
+  .custom-nav {
+    padding-right: 200px;
+    padding-left: 150px;
+  }
+}
+
+.custom-carousel {
+  height: 90vh;
+  margin-top: 3rem;
+}
+
+.custom-carousel img {
+  height: 550px;
+}
+
+.custom-carousel .text {
+  position: absolute;
+  bottom: -30px;
+  right: -17rem;
+  width: 110vw;
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  padding-top: 15px;
+  padding-bottom: 5rem;
+  margin: auto;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  z-index: 0;
+}
+
+.custom-carousel .text:hover {
+  border: 3px solid black;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-carousel .container-img {
+    width: 150%;
+    height: 50vh;
+    overflow: hidden;
+  }
+  .custom-carousel .container-img img {
+    width: 150vh !important;
+    margin-left: -8rem;
+  }
+  .custom-carousel .container-img .img-1 {
+    margin-top: -7rem;
+  }
+  .custom-carousel .container-img .img-3 {
+    width: 180vh !important;
+    margin-top: -3rem;
+    margin-left: -10rem;
+  }
+  .custom-carousel .container-img .img-4 {
+    margin-left: -23rem;
+  }
+  .custom-carousel .text {
+    right: -11rem;
+  }
+  .custom-carousel .custom-indicator-slider button {
+    margin-top: -43vh;
+  }
+  .custom-carousel .prev-next {
+    height: 50vh;
+    border-radius: 24px;
+  }
+}
+
+.custom-svg-slider {
+  position: absolute;
+  bottom: -14%;
+}
+
+.custom-about {
+  padding-top: 4rem;
+  position: relative;
+  padding-bottom: 4rem;
+}
+
+.custom-about h3 {
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.custom-about .col-dua p {
+  margin-top: 15px;
+  margin-bottom: 4px;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-about {
+    margin-top: -16rem;
+  }
+  .custom-about h3 {
+    margin-top: 25px;
+  }
+  .custom-about h5 {
+    text-align: center;
+    margin-top: -1rem;
+  }
+  .custom-about p {
+    text-align: justify;
+  }
+}
+
+.custom-parallax {
+  position: relative;
+  width: 100vw;
+  max-height: 20vh;
+  padding-bottom: 140px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.custom-parallax .bg-parallax {
+  margin-top: -4rem;
+  width: 110%;
+  overflow: hidden;
+}
+
+.custom-parallax .bg-parallax img {
+  width: 120%;
+  height: 120vh;
+  background-size: cover;
+  margin-right: 10px;
+  opacity: 0.7;
+}
+
+.custom-parallax .col {
+  position: absolute;
+}
+
+.custom-parallax .col h3 {
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #000;
+  margin-top: 13px;
+}
+
+.custom-parallax .col .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.custom-parallax .col .row div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.custom-parallax .col .row div img {
+  max-width: 220px;
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+          filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+}
+
+.custom-parallax .col .row div .img-1 {
+  max-width: 130px;
+  max-height: 48px;
+}
+
+.custom-parallax .col .row div .img-3 {
+  max-width: 170px;
+  max-height: 55px;
+  -webkit-filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.6));
+          filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.6));
+}
+
+@media screen and (max-width: 992px) {
+  .custom-parallax {
+    width: 105%;
+    max-height: 240px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .custom-parallax .bg-parallax {
+    height: 100%;
+  }
+  .custom-parallax .bg-parallax img {
+    width: 200vmax;
+    height: 100vh;
+    margin-bottom: 4rem;
+    margin-left: -5rem;
+    -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+    opacity: 0.5;
+  }
+  .custom-parallax .col h3 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  .custom-parallax .col .row div .img-1 {
+    max-width: 100px;
+  }
+  .custom-parallax .col .row div .img-2 {
+    max-width: 170px;
+    margin-top: 5px;
+  }
+  .custom-parallax .col .row div .img-3 {
+    max-width: 150px;
+    margin-top: -5px;
+    margin-left: 1.2rem;
+    -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.6));
+            filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.6));
+  }
+}
+
+/* -------------------------Akhir Parallax------------------------- */
+/* -------------------------Our Services------------------------- */
+.custom-our-services {
+  padding-top: 2.7rem;
+  /* -------------Tablet Breakpoints------------- */
+  /* -------------Mobile Breakpoints------------- */
+}
+
+.custom-our-services h3 {
+  width: 100vmax !important;
+  font-weight: normal;
+  font-size: 1.9em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  padding: 20px 0;
+}
+
+.custom-our-services i {
+  font-size: 4em;
+}
+
+.custom-our-services .card-1,
+.custom-our-services .card-2,
+.custom-our-services .card-3 {
+  margin-top: 4px !important;
+  -webkit-box-shadow: -1px -1px 3px #bec5f0, 1px 1px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: -1px -1px 3px #bec5f0, 1px 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.custom-our-services .card-1:hover, .custom-our-services .card-1:active,
+.custom-our-services .card-2:hover,
+.custom-our-services .card-2:active,
+.custom-our-services .card-3:hover,
+.custom-our-services .card-3:active {
+  -webkit-box-shadow: inset -1px -1px 3px #bec5f0, inset 1px 1px 3px black;
+          box-shadow: inset -1px -1px 3px #bec5f0, inset 1px 1px 3px black;
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+}
+
+@media screen and (max-width: 992px) {
+  .custom-our-services .card-3 {
+    margin-top: 30px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .custom-our-services .card-1,
+  .custom-our-services .card-2,
+  .custom-our-services .card-3 {
+    -webkit-box-shadow: -1px -1px 2px #bec5f0, 1px 1px 2px rgba(0, 0, 0, 0.4);
+            box-shadow: -1px -1px 2px #bec5f0, 1px 1px 2px rgba(0, 0, 0, 0.4);
+  }
+  .custom-our-services .card-3 {
+    margin-top: 5px !important;
+  }
+}
+
+/* -------------------------Akhir Our Services------------------------- */
+/* -------------------------Portfolio------------------------- */
+.custom-portfolio {
+  padding-top: 1.3rem;
+}
+
+.custom-portfolio .row-1 {
+  margin-bottom: 0.5rem;
+}
+
+.custom-portfolio .row-1 h3 {
+  font-weight: normal;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.custom-portfolio .view-portfolio {
+  margin-top: 20px;
+}
+
+.custom-portfolio .view-portfolio div {
+  width: 3rem !important;
+  margin-top: 1rem !important;
+}
+
+.custom-portfolio .view-portfolio div img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-portfolio .view-portfolio {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .custom-portfolio .view-portfolio {
+    margin: auto;
+  }
+}
+
+.custom-portfolio .custom-modal {
+  width: 100vmax !important;
+}
+
+.custom-portfolio .custom-modal .modal-dialog {
+  width: 100% !important;
+}
+
+.custom-portfolio .custom-modal .modal-dialog .modal-content {
+  min-width: 60vw !important;
+  max-width: 95vw !important;
+  max-height: 90vh;
+  border: none;
+  background-color: transparent;
+  margin-top: -1rem;
+  margin-left: -12vw;
+}
+
+.custom-portfolio .custom-modal .modal-dialog .modal-content .modal-body {
+  width: 100% !important;
+}
+
+.custom-portfolio .custom-modal .modal-dialog .modal-content .modal-body img {
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-portfolio .custom-modal .modal-dialog .modal-content {
+    min-width: 70vmax !important;
+    max-width: 95vw !important;
+    margin: 10vh 0 0 -2vw;
+  }
+  .custom-portfolio .custom-modal .modal-dialog .modal-content img {
+    width: 100vmax !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .custom-portfolio .custom-modal .modal-dialog .modal-content {
+    min-width: 13vmax !important;
+    max-width: 90vw !important;
+    margin: 25vh 0 0 1rem;
+  }
+  .custom-portfolio .custom-modal .modal-dialog .modal-content img {
+    width: 900px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .custom-portfolio .custom-modal {
+    width: 100vw !important;
+  }
+}
+
+/* -------------------------Akhir Portfolio------------------------- */
+/* -------------------------Contact Us------------------------- */
+.custom-about-us .row-1 h3 {
+  font-weight: normal;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.custom-about-us .row-2 .section-left .card-left-up {
+  color: white;
+  text-align: center;
+  background-color: #3d3dc2;
+}
+
+.custom-about-us .row-2 .section-left .card-left-up i {
+  font-size: 2em;
+}
+
+.custom-about-us .row-2 .section-left .card-left-down {
+  width: 100%;
+}
+
+.custom-about-us .row-2 .section-left .card-left-down h4 {
+  text-align: center;
+}
+
+.custom-about-us .row-2 .custom-contact {
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+
+.custom-about-us .row-2 .custom-contact h5 {
+  margin-top: 2rem;
+  margin-left: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.custom-about-us .row-2 .custom-contact input {
+  width: 96%;
+  border: none;
+  padding-bottom: 0;
+  padding-left: 1px;
+  margin: auto;
+  margin-top: -1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 0px !important;
+}
+
+.custom-about-us .row-2 .custom-contact input:focus {
+  outline: 0 !important;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.custom-about-us .row-2 .custom-contact label {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.custom-about-us .row-2 .custom-contact hr {
+  width: 95%;
+  margin: auto;
+}
+
+.custom-about-us .row-2 .custom-contact button {
+  margin-top: 0.5rem;
+  margin-left: 0.8rem;
+}
+
+@media screen and (max-width: 765px) {
+  .custom-about-us .row-2 .custom-contact {
+    margin-top: 2rem;
+  }
+}
+
+/* -------------------------Akhir_Contact Us------------------------- */
+/* -------------------------Footer------------------------- */
+footer {
+  width: 100vw;
+  padding: 20px 0 8px 0;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  footer p {
+    font-size: 0.9em;
+  }
+}
+
+/* -------------------------Akhir_Footer------------------------- */
+/*# sourceMappingURL=main.css.map */
