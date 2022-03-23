@@ -420,6 +420,7 @@ body {
 
 /* -------------------------Contact Us------------------------- */
 .custom-about-us {
+   padding-top: 67px;
    .row-1 {
       h3 {
          font-weight: normal;
@@ -509,9 +510,23 @@ footer {
       color: white;
       text-align: center;
 
+      a {
+         color: white;
+         text-decoration: none;
+
+         &:hover {
+            color: rgba(white, 0.8);
+            text-decoration: underline;
+         }
+      }
+
       @media screen and (max-width: 576px) {
          font-size: 0.9em;
       }
+   }
+
+   .p2 {
+      color: rgb(103, 220, 255);
    }
 }
 /* -------------------------Akhir_Footer------------------------- */
